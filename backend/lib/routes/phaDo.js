@@ -5,7 +5,7 @@ const path = require("path");
 const router = express.Router();
 
 router.get("/", function (req, res, next) {
-  res.render("pha-do", { t: utils.t });
+  res.render("pha-do", { t: utils.t, secret: 42 });
 });
 
 module.exports = router;

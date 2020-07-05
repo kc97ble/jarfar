@@ -1,21 +1,20 @@
 import * as React from "react";
 import { hot } from "react-hot-loader";
 
-const reactLogo = require("./../assets/img/react_logo.svg");
-import "./../assets/scss/App.scss";
+function Tree(props: any) {
+  return <pre>{JSON.stringify(props)}</pre>;
+}
 
-class App extends React.Component<{}, undefined> {
-  public render() {
-    return (
-      <div className="app">
-        <h1>Hello World!</h1>
-        <p>Foo to the barz</p>
-        <img src={reactLogo.default} height="480" />
-      </div>
-    );
+class App extends React.Component {
+  state = { secret: 0 };
+
+  componentDidMount() {
+    this.setState({ secret: global.window["secret"] });
+  }
+
+  render() {
+    return <Tree secret={this.state.secret}></Tree>;
   }
 }
 
-declare let module: object;
-
-export default hot(module)(App);
+export default App;
