@@ -1,0 +1,18 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+
+  background-color: #eee;
+}
+
+.header > ul {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  list-style: none;
+}
+
+.header > ul > li {
+  margin: 0 1rem;
+}
