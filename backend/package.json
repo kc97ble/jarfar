@@ -13,7 +13,9 @@
     "http-errors": "^1.8.0",
     "marked": "^1.1.0",
     "morgan": "^1.10.0",
+    "node-fetch": "^2.6.0",
     "nodemon": "^2.0.4",
+    "papaparse": "^5.2.0",
     "pug": "^3.0.0"
   }
 }

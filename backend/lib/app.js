@@ -5,7 +5,7 @@ var cookieParser = require("cookie-parser");
 var logger = require("morgan");
 
 var indexRouter = require("./routes/index");
-var phaDoRouter = require("./routes/phaDo");
+var phaDoRouter = require("./routes/pha-do");
 
 var app = express();
 
