@@ -13,7 +13,7 @@ SIMPLE_PAGE.forEach(({ url, src }) => {
   router.get(url, async function (_req, res, next) {
     try {
       const html = await utils.loadResourceAsHtml(src);
-      res.render("simple_page", { html, everything: 42, t: utils.t });
+      res.render("simple_page", { html, t: utils.t });
     } catch (e) {
       next(e);
     }
