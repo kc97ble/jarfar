@@ -1,19 +1,34 @@
 import * as React from "react";
-import { hot } from "react-hot-loader";
-
-function Tree(props: any) {
-  return <pre>{JSON.stringify(props)}</pre>;
-}
+import TreeDrawer from "./TreeDrawer";
 
 class App extends React.Component {
-  state = { secret: 0 };
+  state = {
+    people: [],
+    tree: null,
+    ready: false,
+  };
 
   componentDidMount() {
-    this.setState({ secret: global.window["secret"] });
+    const dataPeopleNode = document.getElementById("data-people") as HTMLInputElement;
+    const dataTreeNode = document.getElementById("data-tree") as HTMLInputElement;
+    console.log(dataPeopleNode);
+    console.log(dataTreeNode);
+    this.setState({
+      people: JSON.parse(dataPeopleNode.value),
+      tree: JSON.parse(dataTreeNode.value),
+      ready: true,
+    });
   }
 
   render() {
-    return <Tree secret={this.state.secret}></Tree>;
+    return this.state.ready ? (
+      <TreeDrawer
+        people={this.state.people as any}
+        root={this.state.tree as any}
+      ></TreeDrawer>
+    ) : (
+      "Loading"
+    );
   }
 }
 

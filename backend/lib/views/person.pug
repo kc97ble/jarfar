@@ -1,0 +1,25 @@
+extends layout
+
+block content
+  h1
+    = person.display_name
+
+  ul
+    if person.depth
+      li Đời thứ: #{person.depth}
+    if person.position
+      li Là con thứ: #{person.position} trong gia đình
+    if person.gender
+      li Giới tính: #{person.gender}
+    if father
+      li
+        | Cha:
+        |
+        a(href=`/pha-do/${father.id}`)
+          | #{father.display_name}
+    if mother
+      li
+        | Mẹ:
+        |
+        a(href=`/pha-do/${mother.id}`)
+          | #{mother.display_name}

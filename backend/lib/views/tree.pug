@@ -2,8 +2,8 @@ extends layout
 
 block content
   #root
-  script
-    = `window.secret=${secret}`
+  input#data-people(style={display: 'none'} value=people)
+  input#data-tree(style={display: 'none'} value=tree)
   //- script(
   //-   src="https://cdnjs.cloudflare.com/ajax/libs/react/16.13.1/umd/react.production.min.js",
   //-   integrity="sha256-yUhvEmYVhZ/GGshIQKArLvySDSh6cdmdcIx0spR3UP4=",
