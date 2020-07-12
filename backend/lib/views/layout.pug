@@ -4,6 +4,9 @@ html
     title= title
     link(rel='stylesheet', href='/static/stylesheets/normalize.css')
     link(rel='stylesheet', href='/static/stylesheets/style.css')
+    link(rel='stylesheet', href='https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap')
   body
-    include layout/header.pug
-    block content
+    include header.pug
+    main
+      block content
+
