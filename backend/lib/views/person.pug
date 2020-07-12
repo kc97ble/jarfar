@@ -1,16 +1,38 @@
 extends layout
 
 block content
+  p
+    a(href="/pha-do")
+      | < Quay về phả đồ
+
   h1
     = person.display_name
-
+  
   ul
+    if person.official_name
+      li Tên khai sinh: #{person.official_name}
+    if person.unofficial_name
+      li Tên thường gọi: #{person.unofficial_name}
+    if person.art_name
+      li Tên hiệu: #{person.unofficial_name}
     if person.depth
       li Đời thứ: #{person.depth}
     if person.position
-      li Là con thứ: #{person.position} trong gia đình
+      li Xếp thứ: #{person.position}
     if person.gender
       li Giới tính: #{person.gender}
+    if person.birth_year
+      li Năm sinh: #{person.birth_year}
+    if person.death_year
+      li Năm mất: #{person.death_year}
+    if person.last_resting_place
+      li Nơi an táng: #{person.last_resting_place}
+    if person.person_in_charge
+      li Nguời cúng giỗ: #{person.person_in_charge}
+    if person.note
+      li Ghi chú: #{person.note}
+  
+  ul
     if father
       li
         | Cha:
@@ -23,3 +45,27 @@ block content
         |
         a(href=`/pha-do/${mother.id}`)
           | #{mother.display_name}
+    if husband
+      li
+        | Chồng:
+        |
+        a(href=`/pha-do/${husband.id}`)
+          | #{husband.display_name}
+    if wives.length > 0
+      li
+        | Vợ
+        ul
+          each wife in wives
+            li
+              a(href=`/pha-do/${wife.id}`)
+                | #{wife.display_name}
+    if children.length > 0
+      li
+        | Con
+        ul
+          each child in children
+            li
+              a(href=`/pha-do/${child.id}`)
+                | #{child.display_name}
+        
+    

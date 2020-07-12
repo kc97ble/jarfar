@@ -40,13 +40,14 @@ class Person {
 
 class Database {
   async refresh() {
+    console.log("Fetching CSV...");
     // fetch csv
     const res = await fetch(CSV_URL);
     const text = await res.text();
     // convert csv to Array<Object>
     const { data, errors, meta } = papaparse.parse(text, PAPAPARSE_CONFIG);
-    console.log(data, errors, meta);
     this.people = data.map((row) => Person.fromRow(row, meta.fields));
+    console.log(`Fetched ${this.people.length} people.`);
   }
 
   getAllPeople() {

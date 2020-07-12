@@ -32,10 +32,6 @@ Hàng sau:
 
 Dịch nghĩa: Trăm năm phúc ấm để lại tiếng thơm trong nhà, vui thấy vườn thơm đông đủ cháu con.
 
-Sau 94 năm, đến năm 1999, ông Nguyễn Tiến Thành (trưởng họ) đã tiến hành tôn tạo khang trang sạch sẽ để hàng năm anh em con cháu tụ họp trong ngày giỗ cụ Nguyễn Tiến Thi (29/12 âm lịch). (?? :D ?? _chắc là dùng ngày giỗ này thay vì ngày giỗ của kỵ Nhân để tiện họp mặt con cháu_)
+Sau 94 năm, đến năm 1999, ông Nguyễn Tiến Thành (trưởng họ) đã tiến hành tôn tạo khang trang sạch sẽ để hàng năm anh em con cháu tụ họp trong ngày giỗ cụ Nguyễn Tiến Thi (29/12 âm lịch).
 
-(?? :D ?? _đoạn này nói về ai?_) Ngoài ra điền sản còn có tậu mua được gần 1 mẫu ruộng tốt ở xứ Đìa Cốc (Làng Chiền), sau này chia cho các con trai cụ.
-
-(?? :D ?? _Đoạn sau đây rất khó hiểu_) Đời thứ2 con trai thứ của kỵ Nguyễn Tiến Nhân là cụ Nguyễn Tiến Huân hiệu là Phúc Tuân ( Cụ Nhiêu Vĩ ông ) điền sản rộng lớn, nhà cửa rộng rãi bề thế với gian nhà 3 gian gỗ tốt được khởi công vào năm Canh Ngọ 1930, trên diện tích 434,5m2 (?? :D ?? _mảnh đất này có phải do kỵ Nhân chia ra?_). Ngoài ra năm Ất Dậu 1945 còn mua (?? :D ?? _ai mua???_) các hoành phi, câu đối (năm Quý hợi 1923) (_hóa ra là mua đồ cũ, sản xuất năm 1923_), sập thờ, khám thờ, đồ thờ cổ. Ngôi nhà là nơi cụ nuôi nấng chăm sóc cá c cháu ngoại của cụ có hoàn cảnh khó khăn mồ côi bố mẹ, cũng là nơi vui chơi tụ tập cho thanh niên trong xóm (?? :D ?? _cần hỏi lại, tại sao nhà của mình mà lại là nơi vui chơi của thanh niên trong xóm?_).
-
-Năm 2018, dòng họ Nguyễn Tiến cho xây mới ngôi từ đường ba gian theo lối kẻ truyền Bắc Bộ, làm nơi thờ cúng của dòng họ. (?? :D ?? _trong này có những đồ gì? xây mới hay xây lại trên mảnh đất cũ?_)
+Năm 2018, dòng họ Nguyễn Tiến cho xây mới ngôi từ đường ba gian theo lối kẻ truyền Bắc Bộ, làm nơi thờ cúng của dòng họ. <sup>(_cần ghi rõ thêm_)</sup>

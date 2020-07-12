@@ -11,6 +11,7 @@ const app = express();
 
 const database = require("./utils/database");
 database.refresh();
+setInterval(() => database.refresh(), 3600 * 1000); // every hour
 
 app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "pug");
